@@ -1,12 +1,10 @@
 repo.name: tinyusb
+repo.submodules:
+    - "hw/mcu/nordic/nrfx"
+    - "lib/CMSIS_5"
+    - "hw/mcu/st/cmsis_device_f4"
+    - "hw/mcu/st/stm32f4xx_hal_driver"
 repo.versions:
     "0.0.0": "master"
-    "0.5.0": "0.5.0"
-    "0.6.0": "0.6.0"
-    "0.7.0": "0.7.0"
-    "0.8.0": "0.8.0"
-    "0.9.0": "0.9.0"
 
-    "0-dev": "0.0.0"        # master
-    "0-latest": "0.9.0"     # latest stable release
-
+    "0-dev": "0.0.0"
